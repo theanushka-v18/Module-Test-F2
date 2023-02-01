@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Module Test F2</title>
+</head>
+<body>
+    <!-- <img src="https://images.pexels.com/photos/1061142/pexels-photo-1061142.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 1">
+    <img src="https://images.pexels.com/photos/1061141/pexels-photo-1061141.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 2">
+    <img src="https://images.pexels.com/photos/1061140/pexels-photo-1061140.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 3">
+    <img src="https://images.pexels.com/photos/1061139/pexels-photo-1061139.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 4"> -->
+
+    <div id="mainContainer" class="main-container">
+        <div class="img-container flex">
+            <img onclick="firstImg()" src="https://images.pexels.com/photos/1061142/pexels-photo-1061142.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 1">
+            <img onclick="secondImg()" src="https://images.pexels.com/photos/1061141/pexels-photo-1061141.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 2">
+            <img onclick="thirdImg()"  src="https://images.pexels.com/photos/1061140/pexels-photo-1061140.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 3">
+            <img onclick="fourthImg()"  src="https://images.pexels.com/photos/1061139/pexels-photo-1061139.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 4">
+        </div>
+        <div id="formContainer" class="form-container">
+            <form id="form">
+                <h2>Register Yourself</h2>
+                <div class="box box-1">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" value="">
+                </div>
+                <div class="box box-2">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" value="">
+                </div>
+                <div class="box box-3">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" value="">
+                </div>
+                <button id="btn">Register</button>
+            </form>
+            <button id="diceImg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYWWu_IoDJJbs81BMkimRSA7TjuZeDJ8YBVth4bE55Jg&s" alt="Dice image"></button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
